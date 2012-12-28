@@ -25,6 +25,8 @@ sub unimport {
 1;
 #ABSTRACT: Enable taint mode lexically
 
+=for Pod::Coverage ^(import|unimport)$
+
 =head1 SYNOPSIS
 
 To enable tainting in a lexical block:
