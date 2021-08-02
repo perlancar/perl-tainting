@@ -2,3 +2,4 @@ tainting-*
 .build
 *~
 nytprof*
+.DS_Store
