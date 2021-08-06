@@ -52,9 +52,9 @@ To disable tainting in a lexical block:
 
 =head1 DESCRIPTION
 
-B<DEPRECATION NOTICE>: tainting.pm is broken because the lexical switching is
-done at compile time while tainting is performed at runtime. Please see
-L<Taint::Local> as alternative.
+B<DEPRECATION NOTICE>: tainting.pm is broken and will be purged from CPAN
+because the lexical switching is done at compile time while tainting is
+performed at runtime. Please see L<Taint::Local> as alternative.
 
 This module provides a simpler interface to L<Taint::Runtime>. The idea is so
 that there is no functions or variables to import. Just C<use> or C<no>, like
