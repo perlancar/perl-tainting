@@ -1,6 +1,6 @@
-0.030   2021-08-06  Released-By: PERLANCAR; Urgency: medium
+0.031   2021-08-06  Released-By: PERLANCAR; Urgency: medium
 
-	- Mark deprecated and mention Taint::Local.
+	- Mention Taint::Runtime instead.
 
 
 0.02    2017-07-04  Released-By: PERLANCAR
